@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43A7FCE6151A738C0063632F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A7FCE4151A738C0063632F /* ViewController.m */; };
+		43A7FCE7151A738C0063632F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43A7FCE5151A738C0063632F /* ViewController.xib */; };
 		43C465A214A7BA3E00409394 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C465A114A7BA3E00409394 /* UIKit.framework */; };
 		43C465A414A7BA3E00409394 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C465A314A7BA3E00409394 /* Foundation.framework */; };
 		43C465A614A7BA3E00409394 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C465A514A7BA3E00409394 /* CoreGraphics.framework */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43A7FCE3151A738C0063632F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		43A7FCE4151A738C0063632F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		43A7FCE5151A738C0063632F /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		43C4659D14A7BA3E00409394 /* GitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43C465A114A7BA3E00409394 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		43C465A314A7BA3E00409394 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -75,6 +80,9 @@
 				43C465B014A7BA3E00409394 /* AppDelegate.h */,
 				43C465B114A7BA3E00409394 /* AppDelegate.m */,
 				43C465A814A7BA3E00409394 /* Supporting Files */,
+				43A7FCE3151A738C0063632F /* ViewController.h */,
+				43A7FCE4151A738C0063632F /* ViewController.m */,
+				43A7FCE5151A738C0063632F /* ViewController.xib */,
 			);
 			path = GitTest;
 			sourceTree = "<group>";
@@ -142,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43C465AC14A7BA3E00409394 /* InfoPlist.strings in Resources */,
+				43A7FCE7151A738C0063632F /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +163,7 @@
 			files = (
 				43C465AE14A7BA3E00409394 /* main.m in Sources */,
 				43C465B214A7BA3E00409394 /* AppDelegate.m in Sources */,
+				43A7FCE6151A738C0063632F /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +269,7 @@
 				43C465B714A7BA3E00409394 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
